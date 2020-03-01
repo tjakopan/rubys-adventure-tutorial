@@ -121,3 +121,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HealthEffectPrefab: {fileID: 3776396839469224332, guid: f743c97ce53fed8408fac1b8585c8992,
     type: 3}
+  CollectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}

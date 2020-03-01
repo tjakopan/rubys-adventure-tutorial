@@ -2,6 +2,7 @@
 
 public class HealthCollectible : MonoBehaviour {
   public GameObject HealthEffectPrefab;
+  public AudioClip CollectedClip;
 
   private void OnTriggerEnter2D(Collider2D other) {
     var rubyController = other.GetComponent<RubyController>();
@@ -10,6 +11,7 @@ public class HealthCollectible : MonoBehaviour {
         Instantiate(HealthEffectPrefab, transform.position + Vector3.up * 1f, Quaternion.identity);
         rubyController.ChangeHealth(1);
         Destroy(gameObject);
+        rubyController.PlaySound(CollectedClip);
       }
     }
   }
