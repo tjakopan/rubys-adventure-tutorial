@@ -10,6 +10,8 @@ public class EnemyController : MonoBehaviour {
   public float Speed = 3.0f;
   public bool Vertical;
   public float ChangeTime = 3.0f;
+  public ParticleSystem SmokeEffect;
+  public GameObject HitEffectPrefab;
 
   // Start is called before the first frame update
   private void Start() {
@@ -55,5 +57,7 @@ public class EnemyController : MonoBehaviour {
     _broken = false;
     _rigidbody2D.simulated = false;
     _animator.SetTrigger("Fixed");
+    SmokeEffect.Stop();
+    Instantiate(HitEffectPrefab, _rigidbody2D.position + Vector2.up * 1f, Quaternion.identity);
   }
 }
