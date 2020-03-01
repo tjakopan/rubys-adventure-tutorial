@@ -9593,6 +9593,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab397a066d2c6a42a4be8d4f341cb52, type: 3}
+--- !u!1001 &1190711856960689959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778324, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190711857792778327, guid: e979e1cf26fda6446bd20a6d5eb593f8,
+        type: 3}
+      propertyPath: m_Name
+      value: Jambi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e979e1cf26fda6446bd20a6d5eb593f8, type: 3}
 --- !u!1001 &1706090078252303472
 PrefabInstance:
   m_ObjectHideFlags: 0
